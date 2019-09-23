@@ -4,6 +4,12 @@
 body {
   font-family: 'Nunito', sans-serif;
 }
+/*The Index Page*/
+/*The Calculator Page*/
+/*The Login Page*/
+/*The Resources Page*/
+/*The Sign Up Page*/
+/*The About Us Page*/
 /* Float four columns side by side */
 .column {
   float: left;
@@ -21,7 +27,7 @@ body {
   clear: both;
 }
 /* Responsive columns */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .column {
     width: 100%;
     display: block;
