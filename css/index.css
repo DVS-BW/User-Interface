@@ -203,10 +203,6 @@ p {
 @media (max-width: 500px) {
   .logo-heading {
     font-size: 4rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
   }
 }
 @media (max-width: 1000px) {
@@ -243,5 +239,5 @@ a {
 }
 img {
   width: 65%;
-  border: 2px solid white;
+  border: 4px solid white;
 }
