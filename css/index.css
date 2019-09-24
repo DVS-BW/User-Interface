@@ -180,6 +180,25 @@ p {
     width: 100%;
   }
 }
+@media (max-width: 500px) {
+  .working {
+    display: none;
+  }
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5%;
+  width: 100%;
+}
+@media (max-width: 1000px) {
+  .row {
+    flex-wrap: wrap;
+  }
+}
+.column {
+  margin: 1%;
+}
 .main-navigation {
   width: 100%;
   height: 100%;
