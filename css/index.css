@@ -1,9 +1,25 @@
+.Footer {
+  width: 100%;
+  height: 100%;
+}
+.navFooter {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 5rem;
+  padding: 10px 0;
+}
+@media (max-width: 500px) {
+  .navFooter {
+    flex-direction: column;
+  }
+}
 * {
   box-sizing: border-box;
 }
 body {
   font-family: 'Nunito', sans-serif;
-  color: #A370A4;
+  color: #2d0d2e;
+  background-image: url("/images/purple_blue.jpg");
 }
 html {
   font-size: 62.5%;
@@ -62,7 +78,7 @@ p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
-  background-color: #a370a4;
+  background-color: skyblue;
 }
 .main-content {
   display: flex;
@@ -82,6 +98,28 @@ p {
 .testimonies1 .elder {
   width: 30%;
 }
+@media (max-width: 500px) {
+  .testimonies1 .elder {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .testimonies1 .elder {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .testimonies1 {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .testimonies1 {
+    flex-direction: column;
+    width: 100%;
+  }
+}
 .testimonies2 {
   border: 2px solid purple;
   display: flex;
@@ -91,6 +129,28 @@ p {
 .testimonies2 .silhouette {
   width: 30%;
 }
+@media (max-width: 500px) {
+  .testimonies2 .silhouette {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .testimonies2 .silhouette {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .testimonies2 {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .testimonies2 {
+    flex-direction: column;
+    width: 100%;
+  }
+}
 .testimonies3 {
   border: 2px solid purple;
   display: flex;
@@ -98,18 +158,47 @@ p {
 .testimonies3 .man {
   width: 30%;
 }
+@media (max-width: 500px) {
+  .testimonies3 .man {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .testimonies3 .man {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .testimonies3 {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .testimonies3 {
+    flex-direction: column;
+    width: 100%;
+  }
+}
 .main-navigation {
   width: 100%;
   height: 100%;
 }
 .topContent {
   height: 100%;
+  border: 2px solid purple;
+}
+@media (max-width: 500px) {
+  .topContent {
+    flex-direction: column;
+  }
 }
 .logo-heading {
   display: flex;
   justify-content: center;
   font-size: 5rem;
   padding: 20px 0;
+  font-family: 'Comfortaa', cursive;
 }
 @media (max-width: 500px) {
   .logo-heading {
@@ -131,6 +220,12 @@ p {
   justify-content: space-evenly;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .nav {
+    flex-direction: column;
+    width: 100%;
+  }
+}
 a {
   font-size: 2rem;
   text-decoration: none;
@@ -138,6 +233,11 @@ a {
 }
 .topContentImgs {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  margin: 3%;
+}
+img {
+  width: 65%;
+  border: 4px solid white;
 }
