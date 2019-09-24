@@ -11,29 +11,82 @@ p {
 }
 
 .testimonies1 {
-    border: 2px solid purple;  
+    border: @main-border-color; 
     display: flex;
     justify-content: flex-start;
     .elder {
         width: 30%; 
-    }
 
+        @media @phone {
+            display: none;
+        }
+
+        @media @tablet {
+            width: 100%;
+        }
+    }
+    @media @phone {
+        flex-direction: column;
+        width: 100%; 
+     }
+
+     @media @tablet {
+        flex-direction: column;
+        width: 100%; 
+     }
 }
 
 .testimonies2 {
-    border: 2px solid purple;
+    border: @main-border-color;
     display: flex;
     justify-content: flex-end;
     flex-direction: row-reverse;
     .silhouette {
         width: 30%;
+
+        @media @phone {
+            display: none;
+        }
+
+        @media @tablet {
+            width: 100%;
+        }
     }
+
+    @media @phone {
+        flex-direction: column;
+        width: 100%; 
+     }
+
+     @media @tablet {
+        flex-direction: column;
+        width: 100%; 
+     }
 }
 
 .testimonies3 {
-    border: 2px solid purple;
+    border: @main-border-color;
     display: flex;
     .man {
         width: 30%;
+
+        @media @phone {
+            display: none;
+        }
+
+        @media @tablet {
+            width: 100%;
+        }
     }
+
+    @media @phone {
+        flex-direction: column;
+        width: 100%; 
+     }
+
+     @media @tablet {
+        flex-direction: column;
+        width: 100%; 
+     }
 }
+
