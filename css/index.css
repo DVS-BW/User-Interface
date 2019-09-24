@@ -64,6 +64,17 @@ p {
   text-align: center;
   background-color: #a370a4;
 }
+.main-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 50px;
+}
+p {
+  font-size: 2rem;
+  line-height: 2;
+}
 .main-navigation {
   width: 100%;
   height: 100%;
@@ -74,7 +85,7 @@ p {
 .logo-heading {
   display: flex;
   justify-content: center;
-  font-size: rem;
+  font-size: 5rem;
   padding: 20px 0;
 }
 @media (max-width: 500px) {
