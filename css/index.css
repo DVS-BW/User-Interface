@@ -246,6 +246,7 @@ p {
 .topContent {
   height: 100%;
   border: 2px solid purple;
+  background-color: #ebe7e7;
 }
 @media (max-width: 500px) {
   .topContent {
